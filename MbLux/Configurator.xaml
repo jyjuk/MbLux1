@@ -1,0 +1,45 @@
+﻿<Window x:Class="MbLux.Configurator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MbLux"
+        mc:Ignorable="d"
+        Title="Configurator" Height="330" Width="500" Closed="Window_Closed">
+    <Grid>
+        <Label x:Name="label_Pluta1" Content="Pluta#1" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="txtBox_Pluta1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="83,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Pluta2" Content="Dvp" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="txtBox_Pluta2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="83,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Stilnica28" Content="Stilnica28" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_Stilnica28_Copy" Content="Stilnica38" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_FasadCina" Content="Fasad" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_Pcv" Content="PCV" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_AluCina" Content="ALU" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_PolnijVysuv" Content="PovnyjVysuv" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label_obuchna" Content="Obychni" HorizontalAlignment="Left" Margin="226,3,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Cargo" Content="Cargo" HorizontalAlignment="Left" Margin="226,33,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Ruchki" Content="Ruchki" HorizontalAlignment="Left" Margin="226,63,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_NogaKuhona" Content="Noga Kuhona" HorizontalAlignment="Left" Margin="226,93,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Shurup" Content="Shuryp" HorizontalAlignment="Left" Margin="226,119,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Konfirmat" Content="Konfirmat" HorizontalAlignment="Left" Margin="226,149,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Zavis" Content="Zavis" HorizontalAlignment="Left" Margin="226,179,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="label_Karniz" Content="Karniz" HorizontalAlignment="Left" Margin="226,209,0,0" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="txtBox_Stilnica28" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="83,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Stilnica38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="83,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Fasad" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="83,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Pcv" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="83,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Alu" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="83,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_PolnijVysuv" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="83,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_ObichnijNaprav" HorizontalAlignment="Left" Height="23" Margin="336,10,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Cargo" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23" Margin="336,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_Ruchki" HorizontalAlignment="Left" Height="23" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="336,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_NogaKuhona" HorizontalAlignment="Left" Height="23" Margin="336,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="120"/>
+        <TextBox x:Name="txtBox_Shurup" HorizontalAlignment="Left" Height="23" Margin="336,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="txtBox_Konfirmat" HorizontalAlignment="Left" Height="23" Margin="336,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="txtBox_Zavis" HorizontalAlignment="Left" Height="23" Margin="336,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox x:Name="txtBox_Karniz" HorizontalAlignment="Left" Height="23" Margin="336,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Button x:Name="buttonSave" Content="Save Price" HorizontalAlignment="Left" Margin="173,248,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="158" Height="38" Click="buttonSave_Click"/>
+
+    </Grid>
+</Window>
